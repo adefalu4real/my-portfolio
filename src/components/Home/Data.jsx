@@ -8,7 +8,7 @@ const Data = () => {
       <p className="home__description">
         I am a passionate developer with expertise in web development. I love
         building interactive and user-friendly websites using cutting-edge
-        technologies like React,NextJs, HTML, CSS,JavaScript and Typescript.
+        technologies like React, NextJs, HTML, CSS,JavaScript and Typescript.
         With a strong problem-solving ability, I aim to create elegant solutions
         that deliver a seamless user experience.
       </p>
