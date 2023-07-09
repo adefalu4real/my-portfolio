@@ -8,22 +8,27 @@ import { toast } from "react-toastify";
 const Contact = () => {
   const form = useRef();
 
-  const notify = (text) => toast(text);
 
   const sendEmail = (e) => {
     e.preventDefault();
     e.stopPropagation();
 
-    emailjs.sendForm(
-      "service_webpo5h",
-      "template_j889blt",
-      form.current,
-      "Rfwbdl_auenzyUDH7"
-    );
-    if (emailjs.sendForm) {
-      notify("Email sent successfully");
-      e.target.reset();
-    }
+    emailjs
+      .sendForm(
+        "service_webpo5h",
+        "template_j889blt",
+        form.current,
+        "Rfwbdl_auenzyUDH7"
+      )
+      .then(
+        (result) => {
+          toast.success("Message sent successfully");
+          e.target.reset();
+        },
+        (error) => {
+          toast.error(error.text);
+        }
+      );
   };
 
   return (
