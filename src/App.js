@@ -13,6 +13,9 @@ import ScrollUp from "./components/Scrollup/Scrollup";
 import Portfolio from "./components/Portfolio/Portfolio";
 import { createContext, useState } from "react";
 import Qualification from "./components/Qualification/Qualification";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 export const themeContext = createContext(null);
 
 const App = () => {
@@ -22,23 +25,26 @@ const App = () => {
     setTheme((cur) => (cur === "light" ? "dark" : "light"));
   };
   return (
-    <themeContext.Provider value={{ theme, toggleTheme }}>
-      <div id={theme}>
-        <Header toggleTheme={toggleTheme} />
-        <main className="main">
-          <Home />
-          <About />
-          <Skills />
-          <Services />
-          <Qualification />
-          <Portfolio />
-          <Testimonial />
-          <Contact />
-        </main>
-        <Footer />
-        <ScrollUp />
-      </div>
-    </themeContext.Provider>
+    <>
+      <ToastContainer />
+      <themeContext.Provider value={{ theme, toggleTheme }}>
+        <div id={theme}>
+          <Header toggleTheme={toggleTheme} />
+          <main className="main">
+            <Home />
+            <About />
+            <Skills />
+            <Services />
+            <Qualification />
+            <Portfolio />
+            <Testimonial />
+            <Contact />
+          </main>
+          <Footer />
+          <ScrollUp />
+        </div>
+      </themeContext.Provider>
+    </>
   );
 };
 // export toggleTheme

@@ -22,7 +22,7 @@ const Header = ({ toggleTheme }) => {
   const [toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
   return (
-    <themeContext.Provider>
+    <themeContext.Provider value={{ toggleTheme }}>
       <header className="header">
         <nav className="nav container">
           <a href="#home" className="nav__logo">
