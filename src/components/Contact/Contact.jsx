@@ -3,11 +3,16 @@ import "./contact.css";
 import emailjs from "@emailjs/browser";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
-import { toast } from "react-toastify";
+import { cssTransition, toast } from 'react-toastify'
 
 const Contact = () => {
   const form = useRef();
 
+
+  const bounce = cssTransition({
+    enter: "flip-horizontal-bottom",
+    exit: "flip-horizontal-upward"
+});
   const sendEmail = (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -22,12 +27,13 @@ const Contact = () => {
       .then(
         (result) => {
           toast.success(`Message sent successfully`, {
-            position: "bottom-right",
+            position: "bottom-right", autoClose: 1000, transition: bounce
           });
           e.target.reset();
         },
         (error) => {
-          toast.error(error.text);
+          toast.error(error.text, { autoClose: 1000, transition: bounce});
+          
         }
       );
   };
