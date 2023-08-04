@@ -61,7 +61,7 @@ const Contact = () => {
                     className="contact__button"
                     target="_blank"
                   >
-                    Write me
+                    Write me a message
                     <i
                       className="bx bx-right-arrow-alt contact__button-icon
                 "
@@ -78,7 +78,7 @@ const Contact = () => {
                     className="contact__button"
                     target="_blank"
                   >
-                    Write me
+                    Write me a message
                     <i
                       className="bx bx-right-arrow-alt contact__button-icon
                 "
