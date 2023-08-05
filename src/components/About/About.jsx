@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
-import me from "../../assets/smartrove.png";
-import CV from "../../assets/webDeveloper.pdf";
+import me from "../../assets/valutechImg.jpg";
+import CV from "../../assets/adefalu_cv.pdf";
 import Info from "./Info";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";

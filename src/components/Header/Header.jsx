@@ -26,7 +26,7 @@ const Header = ({ toggleTheme }) => {
       <header className="header">
         <nav className="nav container">
           <a href="#home" className="nav__logo">
-            Lateef
+            Waliyyullahi
           </a>
 
           <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>

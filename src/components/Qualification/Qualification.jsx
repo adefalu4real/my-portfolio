@@ -18,15 +18,15 @@ const Qualification = () => {
               <div className="qualification__data">
                 <h3 className="qualification__title">Secondary Education</h3>
                 <span className="qualification__subtitle">
-                  Ilobu School of Science
+                  Community High School Alaadun, Ibadan
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2009 - 2012
+                  <i className="uil uil-calendar-alt"></i>2017 - 2019
                 </div>
               </div>
 
               <div className="qualification__data">
-                <h3 className="qualification__title">Mechanical Engineering</h3>
+                <h3 className="qualification__title">Computer Engineering</h3>
                 <span className="qualification__subtitle">
                   Federal Polytechnic, Ilaro{" "}
                 </span>{" "}
@@ -35,20 +35,7 @@ const Qualification = () => {
                   National Diploma{" "}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2013 - 2015
-                </div>
-              </div>
-              <div className="qualification__data">
-                <h3 className="qualification__title">Mechanical Engineering</h3>
-                <span className="qualification__subtitle">
-                  Federal Polytechnic, Ilaro{" "}
-                </span>{" "}
-                <br />
-                <span className="qualification__subtitle">
-                  Higher National Diploma{" "}
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2016 - 2018
+                  <i className="uil uil-calendar-alt"></i>2020 - 2022
                 </div>
               </div>
 
@@ -62,7 +49,7 @@ const Qualification = () => {
                   Fullstack Engineering{" "}
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - 2023
+                  <i className="uil uil-calendar-alt"></i>2022 - 2023
                 </div>
               </div>
 
@@ -83,47 +70,20 @@ const Qualification = () => {
             {/* ============ Qualification Data 2 ============== */}
             <div className="qualification__data">
               <h3 className="qualification__title">Fullstack Web Developer</h3>
-              <span className="qualification__subtitle">Automation Lounge</span>
+              <span className="qualification__subtitle">
+                Boldlnks Solution Tech
+              </span>
               <div className="qualification__calender">
                 <i className="uil uil-calendar-alt"></i>2023
               </div>
-            </div>
-
-            <div>
-              <span className="qualification__rounder"></span>
-              {/* <span className="qulification__line"></span> */}
-            </div>
-            <h3 className="qualification__title">Web Developer</h3>
-            <span className="qualification__subtitle">
-              Boldlinks Technology Solution
-            </span>
-            <div className="qualification__calender">
-              <i className="uil uil-calendar-alt"></i>2021 - 2023
-            </div>
-          </div>
-
-          <div className="qualification__data">
-            <h3 className="qualification__title">Volunteer Web Developer</h3>
-            <span className="qualification__subtitle">Stem Zone</span>
-            <div className="qualification__calender">
-              <i className="uil uil-calendar-alt"></i>2022 - 2023
             </div>
           </div>
 
           <div className="qualification__data">
             <h3 className="qualification__title">Graphic Designer</h3>
-            <span className="qualification__subtitle">
-              Smartrove Integrated Services
-            </span>
+            <span className="qualification__subtitle">Valutech Ventures</span>
             <div className="qualification__calender">
-              <i className="uil uil-calendar-alt"></i>2019-2021
-            </div>
-          </div>
-          <div className="qualification__data">
-            <h3 className="qualification__title">Content Writer</h3>
-            <span className="qualification__subtitle">Slate De Press</span>
-            <div className="qualification__calender">
-              <i className="uil uil-calendar-alt"></i>2016 - 2018
+              <i className="uil uil-calendar-alt"></i>2018-2022
             </div>
           </div>
         </div>

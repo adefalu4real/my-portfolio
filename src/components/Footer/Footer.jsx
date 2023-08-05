@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Lateef Wasiu Olalekan</h1>
+        <h1 className="footer__title">Adefalu Waliyyullahi Alade</h1>
         <p className="footer__subtitle">Fullstack Developer</p>
         <ul className="footer__list">
           <li>
@@ -29,7 +29,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://web.facebook.com/adewale.ologbenla.9"
+            href="https://web.facebook.com/adefalu.waliyyulahialade"
             className="footer__social-link"
             target="_blank"
           >
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/hybrid_web/"
+            href="https://www.instagram.com/adefalu4real/"
             className="footer__social-link"
             target="_blank"
           >
@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://twitter.com/WalexyTush"
+            href="https://twitter.com/waliyyullahi12"
             className="footer__social-link"
             target="_blank"
           >
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
 
         <span className="footer__copy">
-          &#169; Smartrove. All rights reserved 2023
+          &#169; Valutech. All rights reserved 2023
         </span>
       </div>
     </footer>
