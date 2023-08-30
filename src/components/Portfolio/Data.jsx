@@ -1,7 +1,7 @@
 import image1 from "../../assets/SODMAR CONSTR.png";
 import image2 from "../../assets/PIG GAME.png";
-import image3 from "../../assets/nft-collection.png";
-import image4 from "../../assets/quiz.png";
+import image3 from "../../assets/eat-n-split.jpg";
+import image4 from "../../assets/far away.png";
 import image5 from "../../assets/ecommerce.png";
 import image6 from "../../assets/global electromech clone.png";
 import edieProject from "../../assets/EDIE PROJECT.png";
@@ -28,19 +28,19 @@ export const portfolioData = [
     link: "https://adefalu4real.github.io/twoPlayerGame/",
     demo: "https://adefalu4real.github.io/twoPlayerGame/",
   },
-  // {
-  //   id: "4",
-  //   image: image3,
-  //   title: "Nft Collection Market",
-  //   link: "https://silver-tanuki-5214ce.netlify.app/wallet/111111111111111111",
-  //   demo: "https://silver-tanuki-5214ce.netlify.app/wallet/111111111111111111",
-  // },
+  {
+    id: "4",
+    image: image3,
+    title: "eat and split price app",
+    link: "https://eat-n-split.onrender.com/",
+    demo: "https://eat-n-split.onrender.com/",
+  },
   {
     id: "5",
     image: image4,
-    title: "Quiz App",
-    link: "https://legendary-alfajores-48bfda.netlify.app/",
-    demo: "https://legendary-alfajores-48bfda.netlify.app/",
+    title: "Far Away",
+    link: "https://far-away-git-main-adefalu4real.vercel.app/",
+    demo: "https://far-away-git-main-adefalu4real.vercel.app/",
   },
   {
     id: "6",

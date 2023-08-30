@@ -5,8 +5,6 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
 import { cssTransition, toast } from "react-toastify";
 
-import "react-toastify/dist/ReactToastify.css";
-
 const Contact = () => {
   const form = useRef();
 
@@ -19,10 +17,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        REACT_APP_SERVICE_ID,
-        REACT_APP_TEMPLATE_ID,
+        "service_kubjspi",
+        "template_djjh4xg",
         form.current,
-        REACT_APP_PUBLIC_KEY
+        "M_xtfGlAanrlMI1pu"
       )
       .then(
         (result) => {
@@ -32,6 +30,7 @@ const Contact = () => {
           toast.error(error.text, bounce);
         }
       );
+    e.target.reset();
   };
 
   return (
@@ -110,7 +109,7 @@ const Contact = () => {
                 <label className="contact__form-tag">Name</label>
                 <input
                   type="name"
-                  name="user_name"
+                  name="name"
                   placeholder="Insert your name"
                   className="contact__form-input"
                   required
@@ -121,7 +120,7 @@ const Contact = () => {
                 <label className="contact__form-tag">Email</label>
                 <input
                   type="email"
-                  name="user_email"
+                  name="email"
                   placeholder="Insert your email"
                   className="contact__form-input"
                   required
